@@ -1,5 +1,4 @@
 import './../App.css';
-import './script'
 import Nav from './..//Nav/nav.component'
 import Section1 from './section1/start.component'
 import Mid from './section2/mid.component'

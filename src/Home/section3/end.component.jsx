@@ -9,19 +9,19 @@ const end = () => {
         <section class="end">
         <div class="svg-icons">
           <div class="svg-icons-gap">
-            <img data-aos="fade-up" id="sexy-sa" data-aos-duration="3000" class="svg" src={satisfaction}></img>
+            <img data-aos="fade-up" alt='' id="sexy-sa" data-aos-duration="3000" class="svg" src={satisfaction}></img>
             <div class="svg-content">
               <h3>Love The Product</h3>
             </div>
           </div>
           <div class="svg-icons-gap">
-            <img data-aos="fade-up" data-aos-duration="3000" class="svg" src={budget}></img>
+            <img data-aos="fade-up" alt='' data-aos-duration="3000" class="svg" src={budget}></img>
             <div class="svg-content">
               <h3>For Every Budget</h3>
             </div>
           </div>
           <div class="svg-icons-gap">
-            <img data-aos="fade-up" data-aos-duration="3000" class="svg" src={peace}></img>
+            <img data-aos="fade-up" alt='' data-aos-duration="3000" class="svg" src={peace}></img>
             <div class="svg-content">
               <h3>Customer Satisfaction</h3>
             </div>
