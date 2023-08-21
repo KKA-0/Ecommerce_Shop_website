@@ -1,6 +1,4 @@
-.NavbarMobileOptions{
-    display: none;
-  }
+
   nav{
     position: sticky;
     top: 0;
@@ -41,9 +39,7 @@
     color: white;
     cursor: pointer;
   }
-  .mobileNavbar{
-    display: none;
-  }
+
   .underline{
       margin-top: 5px;
       display: inline-block;
@@ -68,4 +64,7 @@
   .underline:hover::before{
       scale: 1;
   
+  }
+  .NavbarMobileOptions{
+    display: none;
   }

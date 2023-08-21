@@ -18,8 +18,10 @@ body{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    
-    
+}
+.intro{
+  height: 100%;
+  width: 60%;
 }
 
 .mid{
@@ -70,21 +72,22 @@ body{
 }
 
 .head{
-    position: absolute;
+    position: relative;
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;;
-    left: 10px;
+    left: 20px;
     margin: 18vh 0;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .sogo{
-  position: absolute;
+  position: relative;
   color: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
-  left: 91px;
-  margin: 35vh 14px;
+  left: 40px;
+  bottom: 110px;
   font-size: 15px;
+  z-index: 3;
 }
 
 .image-design
@@ -191,7 +194,7 @@ footer{
     width: fit-content;
     color: white;
     font-family: 'Poppins';
-    width: -moz-fit-content; /* Prefijo necesario para Firefox  */
+    /* width: -moz-fit-content; Prefijo necesario para Firefox  */
     font-size: 18px;
   }
   
@@ -224,6 +227,12 @@ footer{
     outline-offset: -5px;
   }
   
+  .sliderDiv {
+    height: 100%;
+    width: 40%;
+    background-color: #373B44;
+  }
+
   @media (any-hover: hover) and (any-pointer: fine) {
     .card__content {
       transform: translateY(62%);
@@ -434,10 +443,7 @@ footer{
   .head {
     margin: 9% 8% !important;
 }    
-.sogo {
-  top: -86px;
-  left: 143px;
-}  
+
 .copyright {
   height: 50px;
   width: 100%;
@@ -545,13 +551,6 @@ footer{
   width: 100%;
   height: 100%;
   border-radius: inherit;
-}
-
-@media screen and (max-width: 1000px) {
-  body .heading {
-    margin: 9rem 3rem;
-    font-size: 6rem;
-  }
 }
 
 @media screen and (max-width: 780px) {
@@ -706,9 +705,7 @@ img {vertical-align: middle;}
   .head{
     margin: 18vh 0;
   }
-  .sogo{
-    margin: 39vh 14px;
-  }
+
   .button-57 {
     top: 450px;
   }
@@ -720,9 +717,7 @@ img {vertical-align: middle;}
   .head {
     font-size: 4rem;
 }
-.sogo {
-  margin: 34vh 3px;
-}
+
 .button-57 {
   top: 340px;
   left: 250px;
@@ -948,6 +943,36 @@ footer{
 }
 @media screen and (max-width: 450px){
   /* navbar options remove */
+  .intro{
+    width: 100%;
+    height: 300px;
+  }
+  .sliderDiv{
+    width: 100%;
+    height: 400px;
+  }
+  .head{
+    left: 0;
+    margin-bottom: 20px;
+  }
+  .sogo {
+    margin: 0 10px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    left: 0;
+    bottom: 35px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card__content {
+  opacity: 0%;
+  transition: .5s;
+}
+.card__content:hover {
+  opacity: 100%;
+}
   #removeOptions{
     display: none;
   }
@@ -965,6 +990,7 @@ footer{
     height: 45px;
     width: 45px;
     margin: 3px;
+    margin-top: -3px;
   }
  .NavbarMobileOptions{
   display: none;
@@ -1001,7 +1027,9 @@ footer{
   }
   .start{
     height: fit-content;
+    width: 100%;
   }
+
   .button-57{
     top: 1vh !important;
     left: 16vh !important;
@@ -1009,14 +1037,6 @@ footer{
   .next {
     margin-right: 37px;
 }
-  .sogo
-    {
-      position: absolute;
-      top: -20px;
-      left: 10px;
-      text-align: center;
-  
-  }
 }
 
 .SliderImg{
@@ -1305,4 +1325,15 @@ body {
 .cardsContainer{
   display: flex;
   flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1000px) {
+  body .heading {
+    margin: 9rem 3rem;
+    font-size: 6rem;
+  }
+  .head{
+    margin: 0;
+  }
 }
