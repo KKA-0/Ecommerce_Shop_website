@@ -2,6 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './nav.css'
 const Nav = () => {
+
+  const NavbarMobileOptions = () => {
+    const navbar = document.getElementById("NavbarMobileOptions");
+    const isHidden = navbar.style.display === "none";
+    if (isHidden) {
+      navbar.style.display = "block";
+    }else{
+      navbar.style.display = "none";
+    }
+  };
+
   return (
     <div>
         <nav>
@@ -13,9 +24,9 @@ const Nav = () => {
                 <h2 class="nav-option" id="contact-us-option">CONTACT US</h2>
             </div>
             </div>
-            <div class="mobileNavbar" id="mobileNavbar"></div>
+            <div class="mobileNavbar" onClick={ NavbarMobileOptions } id="mobileNavbar"></div>
         </nav>
-        <div class="NavbarMobileOptions" id="NavbarMobileOptions">
+        <div class="NavbarMobileOptions" style={{ display: "none" }} id="NavbarMobileOptions">
             <h2 class="nav-option NavbarMobile">HOME</h2>
             <h2 class="nav-option NavbarMobile">PRODUCTS</h2>
             <h2 class="nav-option NavbarMobile" id="contact-us-option">CONTACT US</h2>
