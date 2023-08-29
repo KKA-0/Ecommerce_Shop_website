@@ -12,7 +12,7 @@ const mid = () => {
             <div class="card__content--container | flow">
                 <h2 class="card__title">Royal Rajasthani BedSheets</h2>
                 <p class="card__description">
-                Get the best quality Bedsheets for All Occasions Double and Single Bed.
+                The Royal Hand Crafted Rajasthani Finest Bedsheets.
                 </p>
             </div>
             </div>
@@ -29,7 +29,7 @@ const mid = () => {
             <div class="card__content--container | flow">
                 <h2 class="card__title">Linear Cool Floral Bedsheets</h2>
                 <p class="card__description">
-                Get the best quality Curtains for All Occasions In Any Size.
+                High Quality and Feature rich Bedsheets for all occasions
                 </p>
             </div>
             </div>
@@ -46,7 +46,7 @@ const mid = () => {
             <div class="card__content--container | flow">
                 <h2 class="card__title">Berry Crush Winter Comforter</h2>
                 <p class="card__description">
-                Get the best quality Mattress for Every Budget and Comfort.
+                
                 </p>
             </div>
             </div>
@@ -63,7 +63,7 @@ const mid = () => {
             <div class="card__content--container | flow">
                 <h2 class="card__title">Siliconised Microfiber Reversible Comforter</h2>
                 <p class="card__description">
-                Get the best quality Mattress for Every Budget and Comfort.
+                
                 </p>
             </div>
             </div>

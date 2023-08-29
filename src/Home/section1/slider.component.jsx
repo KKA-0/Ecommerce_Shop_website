@@ -9,7 +9,7 @@ const SliderImg = () => {
 
   return (
     <div className='sliderDiv'>
-
+      <img className='imageslider' src='https://www.architectandinteriorsindia.com/cloud/2021/11/15/Design-Deconstruct-(1)-(1).png' alt=''/>
     </div>
       )
 }

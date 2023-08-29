@@ -14,6 +14,8 @@ const Footer = () => {
         <div class="foot-section">
             <h1 class="underline">Locate Us</h1>
             <h3 class="underline"><a href="https://goo.gl/maps/Tj5RHByNH4e2J1JM7">Agarwal Handloom 82, Mayur Market Thatipur Gwalior, India</a></h3>
+            <h3 class="underline">+91-9827552747</h3><br/>
+            <h3 class="underline">+91-9425716224</h3><br/>
             <h3 class="underline">Socials</h3>
         </div>
         <div class="copyright">

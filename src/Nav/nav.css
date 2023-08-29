@@ -65,3 +65,10 @@
       scale: 1;
   
   }
+  .sliderDiv{
+    object-fit: cover;
+  }
+.imageslider{
+  height: 100%;
+  width: 100%;
+}
